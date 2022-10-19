@@ -22,7 +22,7 @@ class App extends Component {
         <h1>React Animations</h1>
         <Modal show={this.state.modalIsOpen} closed={this.closeModal} />
         <Backdrop show={this.state.modalIsOpen} />
-        <button type="button" className="Button" onClick={this.showModal}>
+        <button className="Button" onClick={this.showModal}>
           Open Modal
         </button>
         <h3>Animating Lists</h3>
